@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    background-color: white;
+    position: relative;
+    display: flex;
+    height: 70px;   
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.479);
+}
+#img_1{
+    position: absolute;
+    height: 45px;
+    top: 12px;
+    left: 12px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+#tittle_1{
+    margin-left: 100px;
+}
+h4{
+    color: rgba(4, 4, 94, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+h4:hover{
+    text-decoration: underline;
+}
+#perfil_header{
+    background-color: blue;
+    display: flex;
+    position: absolute;
+    height: 80px;
+    width: 230px;
+
+    right: 100px;
+}
+#simbolo{
+    margin-left: 4px;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+#logo_tras{
+    background: url('src/img/backgraund-sas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+}
+#barra_logo{
+    background-color: #fff;
+    position: relative;
+    box-shadow: -1px -19px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px 10px 0 0;
+    height: 20px;
+    top: 94%;
+}
+#area_perfil{
+    
+}
