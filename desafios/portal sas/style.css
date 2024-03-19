@@ -41,12 +41,12 @@ h4:hover{
     background-color: blue;
     display: flex;
     position: absolute;
-    height: 80px;
+    height: 70px;
     width: 230px;
 
-    right: 100px;
+    right: 45px;
 }
-#simbolo{
+.simbolo{
     margin-left: 4px;
     transform: rotate(90deg);
     display: inline-block;
