@@ -6,6 +6,7 @@
 header{
     position: sticky;
     top: 0px;
+    z-index: 2;
 }
 nav{
     background-color: white;
@@ -14,7 +15,7 @@ nav{
     height: 70px;   
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.479);
 }
-#img_1{
+#img-1{
     position: absolute;
     height: 45px;
     top: 12px;
@@ -22,55 +23,105 @@ nav{
 }
 ul{
     display: flex;
+    
+}
+#ul-header{
     list-style: none;
 }
-#tittle_1{
+#tittle-1{
     margin-left: 100px;
 }
-h4{
+.info-header{
     color: rgba(4, 4, 94, 0.911);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     padding-top: 25px;
     padding-right: 20px;
 }
-h4:hover{
+.info-header:hover{
     text-decoration: underline;
 }
-#aluno_header{
-    background-color: blue;
+a{
+    text-decoration: none;
+}
+#aluno-header{
     display: flex;
     position: absolute;
     height: 70px;
     width: 230px;
     right: 45px;
 }
-#foto_aluno{
-    background-image: url("src/img/avatarIcon.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    border: 1px solid rgba(4, 4, 94, 0.911);;
-    border-radius: 50%;
-    width: 25%;
-    height: 58px;
-    
+#descricao-aluno{
+    padding-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+#foto-aluno{
+    margin-top: 3px;
+    background-size: contain;
+    border: 3px solid#0467db;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 63px;
+}
+#p-aluno{
+    color: #0467db;
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .simbolo{
     margin-left: 4px;
     transform: rotate(90deg);
     display: inline-block;
 }
-#logo_tras{
+#logo-tras{
     background: url('src/img/backgraund-sas.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 180px;
 }
-#barra_logo{
+
+#barra-logo{
     background-color: #fff;
-    position: relative;
+    border-radius: 20px 20px 0 0;
     box-shadow: -1px -19px 20px rgba(0, 0, 0, 0.19);
-    border-radius: 10px 10px 0 0;
+}
+#barra-logo2{
+    margin-top: -24px;
     height: 20px;
-    top: 94%;
+    z-index: -1;
+}
+#area-info{
+    margin: auto;
+    background-color: #0467db;
+    max-width: 1100px;
+    height: 1000px;
+    display: flex;
+}
+#foto-aluno-info{
+    position: relative;
+    margin-top: -40px;
+    left: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+}
+#titulo-aluno-info{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+#nome-aluno-info{
+    position: relative;
+    top: 10px;
+    left: 25px;
+}
+#ul-info{
+    position: relative;
+    top: 30px;
+}
+#sebastiao{
+    position: relative;
+    left: 20px;
 }
